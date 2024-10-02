@@ -1,14 +1,14 @@
 import java.util.Scanner;
 public class Pemilihan2Percobaan104 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int tahun04;
+        Scanner sc04 = new Scanner(System.in);
+        int tahun;
         
         System.out.print("Masukkan Tahun: ");
-        tahun04 = sc.nextInt();
+        tahun = sc04.nextInt();
 
-        if ((tahun04 % 4) == 0) {
-            if ((tahun04 % 100) != 0) {
+        if ((tahun % 4) == 0) {
+            if ((tahun % 100) != 0) {
                 System.out.println("Tahun Kabisat");
             }
         } else
