@@ -15,14 +15,15 @@ public class Pemilihan2Percobaan204 {
         System.out.println("2. Ice Tea");
         System.out.println("3. Paket Bundling (Ricebowl + Ice Tea)");
         System.out.println("--------------------------------------");
-        System.out.print("masukkan angka dari menu yang dipilih = " );
+        System.out.print("masukkan angka dari menu yang dipilih = ");
         pilihan_menu = sc04.nextInt();
         sc04.nextLine();
         System.out.print("Pembayaran QRIS (y/n) ? = ");
         pembayaran = sc04.nextLine();
         System.out.print("Apakah punya member (y/n) ? = ");
         member = sc04.nextLine();
-    
+        System.out.println("--------------------------------------");
+        
     if (pembayaran.equals("y")) {
         if (member.equals("y")) {
             diskon = 0.10;
